@@ -80,23 +80,22 @@ windowsのスタートの検索窓で”Windows Power Shell”を検索。<b>管
 任意の場所で
 
 ```
-git clone 
+git clone https://github.com/beginner-robotics/ros2-navigation.git 
 cd ros2-navigation/docker
 ./build_image_on_windows.ps1
+./run_on_windows.ps1
+sed -i 's/\r//' run_simulation.sh
 ```
 
 <b>二回目以降</b>
 ```
 cd ros2-navigation/docker
-./build_image_on_windows.ps1
+./run_on_windows.ps1
 ```
-
-
 
 #### 4 シミュレーションの実行
 3終了後、同じ画面で
 ```
-./run_on_windows.ps1
 ./run_simulation
 ```
 
@@ -163,7 +162,7 @@ $ git --version
 
 任意の場所で
 ```
-$ git clone
+$ git clone https://github.com/beginner-robotics/ros2-navigation.git
 ```
 
 #### docker imageのビルド（初回のみ）
