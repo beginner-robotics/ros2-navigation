@@ -1,7 +1,7 @@
 # ビギナーロボティクス
 # Ros2 Navigationを動かしてみよう！
 
-ビギナーロボティクス第３章の教材です。
+[ビギナーロボティクス](https://www.amazon.co.jp/dp/B0B6RTPKRY)第３章の教材です。
 第２章までに学んだロボットの移動知能について、実際に手を動かしながら理解を深めることを目的としています。
 
 教材としてはROS2のnavigation2の[turtlebot3を使ったチュートリアル](https://navigation.ros.org/getting_started/index.html)をそのまま使います。
